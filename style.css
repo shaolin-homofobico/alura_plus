@@ -1,10 +1,15 @@
 :root{
-  --branco:#ffffff;
-  --cinza: #f9f9f9;
-  --azul:#167BF7;
-  --fundo: #000;}
+    --branco:#ffffff;
+    --cinza:#c0c0c0;
+    --azul:#167BF7;
+    --fundo: #00030C;
+}
 
-<body{
+body{
     background-color: var(--fundo);
-    
+    color: var(--branco);
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
